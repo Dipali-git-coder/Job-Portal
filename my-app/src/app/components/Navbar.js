@@ -10,14 +10,14 @@ export default function Navbar() {
                 <Link href={"/"}>Home</Link>
                 <Link href={"/about"}>About</Link>
                 <Link href={"/contact"}>Contact</Link>
-                <button 
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                <Link 
                 href={"/signup"}
-                >sign up</button>
-                <button 
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                >sign up</Link>
+                <Link 
                 href={"/signin"}
-                >sign in</button>
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                >sign in</Link>
             </div>
         </nav>
     </div>
