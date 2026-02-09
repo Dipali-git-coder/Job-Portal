@@ -1,9 +1,12 @@
 import Image from "next/image";
 import {jobs} from "./data/jobs";
 import JobFilters from "./jobs/JobFilters";
+import HeroSection from "./components/Herosection";
 
 export default function Home() {
   return (
+    <main>
+    <HeroSection />
     <div className="container mx-auto p-4">
       <h1 className="text-4xl font-bold mb-6 text-black">Job Listings</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -27,5 +30,6 @@ export default function Home() {
         ))}
       </div>
     </div>
+  </main>
   );
 }

@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Navbar() {
   return (
     <div>
-        <nav className="flex items-center justify-between p-6 bg-gray-800">
+        <nav className="flex items-center justify-between p-6 bg-blue-800 backdrop-blur-md">
                 <Link href={"/"} className='font-bold text-3xl'>Job Listing Portal</Link>
             <div className="text-white font-bold text-xl gap-8 flex-row flex items-center">
                 <Link href={"/"}>Home</Link>
