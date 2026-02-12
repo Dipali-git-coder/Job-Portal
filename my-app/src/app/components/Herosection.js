@@ -31,18 +31,6 @@ export default function HeroSection() {
             of rigorous thinking, hard work, and strong fundamentals. Let us begin...
           </p>
         </div>
-
-        {/* Right Buttons */}
-        <div className="mt-8 md:mt-0 space-y-4">
-          {["Student", "Recruiter", "Coordinator", "Verifier"].map((role) => (
-            <button
-              key={role}
-              className="w-52 py-3 rounded-lg bg-indigo-600 hover:bg-indigo-700 transition duration-300 shadow-lg"
-            >
-              {role}
-            </button>
-          ))}
-        </div>
       </div>
     </section>
   );
